@@ -1,0 +1,64 @@
+/* Author:        Michael Galarneau
+ * Class:         UNH BootCamp      
+ * Assignment:    Module #9: Fun with Text
+ * Date:          7/28/2018     
+ * File:          style.css          
+ */
+ 
+body {
+    background-color: white;
+}
+
+.all {
+    color: black;
+}
+
+p.red {
+    color: red;
+}
+
+p.blue {
+    color: blue;
+}
+
+p.green {
+    color: green;
+}
+
+p.big {
+    font-size: 200%;
+}
+
+p.tiny {
+    font-size: 50%;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.verdana {
+    font-family: verdana;
+}
+
+p.bigbold {
+    font-size: 200%;
+    color: orange;
+    font-weight: bold;
+}
+
+div.a {
+    text-align: center;
+}
+
+p.styledFont {
+    font-size: 100%;
+    color: green;
+    font-family: courier;
+}
+
+#styledImage {
+    border-width: 1ch;
+    border-style: solid;
+    border-color: yellow;
+}

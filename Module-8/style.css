@@ -1,0 +1,49 @@
+/* Author:        Michael Galarneau       
+ * Class:         UNH BootCamp            
+ * Assignment:    Module #8: Mah Bands!   
+ * Date:          7/27/2018               
+ * File:          style.css               
+ */
+
+p,
+h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	background-color:powderblue;
+	color:black;
+	padding:20px;
+}
+
+h2 {
+	background-color:powderblue;
+	color:black;
+	padding:10px;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 5px;
+}
+
+td {
+	text-align: right;
+}
+
+p.tagline {
+	font-size: 125%;
+	color: black;
+	font-family: verdana;
+	background-color: lightgray;
+}
+
+

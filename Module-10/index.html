@@ -1,0 +1,73 @@
+<!--  Author:  Michael Galarneau -->
+<!--  CLass:   UNH Boot Camp -->
+<!--  Assignment:   Module 10 - Jiggle Into Javascript -->
+<!--  Date:  July 30, 2018 -->
+
+<!-- file:  index.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jiggle Into JavaScript</title>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <h2>Press the buttons to change the box!</h2>
+
+    <table>
+        <tr>
+            <td>
+                <div id="divBox" style="width:225px; margin:25px; text-align:center">
+                    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px"></div>
+                </div>
+            </td>
+
+            <td>
+
+                <!-- Requirement:  Grow, Blue and Fade buttons  -->
+                <div id="divColors" style="width:225px; background-color:lightgray; margin:25px;text-align:center">
+                    <p>Size & Color Controls</p>
+                    <button id="growBtn">Grow</button>
+                    <button id="shrinkBtn">Shrink</button>
+                    <br>
+                    <br>
+                    <button id="blueBtn">Blue</button>
+                    <button id="orangeBtn">Orange</button>
+                    <br>
+                    <br>
+                    <button id="fadeBtn">Fade</button>
+                    <button id="brightBtn">Brighten</button>
+                </div>
+
+                <!-- Bonus:  Add other actions (Border Controls) -->
+                <div id="divBorders" style="width:225px; background-color:lightgray; margin:25px; text-align:center">
+                    <p>Border Controls</p>
+                    <button id="showBtn">Show</button>
+                    <button id="hideBtn">Hide</button>
+                    <br>
+                    <br>
+                    <button id="dottedBtn">Dotted</button>
+                    <button id="dashedBtn">Dashed</button>
+                    <button id="solidBtn">Solid</button>
+                </div>
+
+                <!-- Requirement:  Reset button  -->
+                <div id="divMaster" style="width:225px; background-color:lightgray; margin:25px;text-align:center">
+                    <p>Master Control</p>
+                    <button id="resetBtn">Reset</button>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+
+
+    <script type="text/javascript" src="javascript.js">
+    </script>
+
+
+</body>
+
+</html>
